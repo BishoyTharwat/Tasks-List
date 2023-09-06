@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+    <!--  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>JS-APP 006</h1>
+      </div>
+      <div class="col-8 mx-auto">
+        <form
+          action=""
+          id="tasks-form"
+          class="my-5 border border-primary p-3"
+        >
+          <div class="mb-3">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="type your task"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="submit"
+              value="ADD"
+              class="form-control bg-success text-white add-btn"
+              id="submit-btn"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="col-12 mx-auto">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>task name</th>
+              <th>edit</th>
+              <th>delete</th>
+            </tr>
+          </thead>
+          <tbody class="body-table">
+            <!-- <tr>
+              <td>First task</td>
+            <td>
+              <button class="btn btn-info"> Edit</button>
+
+            </td>
+            <td>
+              <button class="btn btn-danger"> Delete</button>
+
+            </td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
